@@ -22,7 +22,7 @@ const JsEditor = () => {
             onChange={value => setJs(value)}
             height={'100%'}
             width={'100%'}
-            showPrintMargin={true}
+            showPrintMargin={false}
             showGutter={false}
             highlightActiveLine={true}
             setOptions={{
